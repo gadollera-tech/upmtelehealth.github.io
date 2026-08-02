@@ -1,0 +1,32 @@
+<a class="skip-link" href="#main">Skip to main content</a>
+<div class="institution-bar">
+  <div class="container institution-bar__inner">
+    <span>University of the Philippines Manila</span>
+    <span class="institution-bar__divider" aria-hidden="true"></span>
+    <span>National Institutes of Health</span>
+    <a href="{{ '/contact/' | relative_url }}">Contact NTHC</a>
+  </div>
+</div>
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="UP Manila National Institutes of Health National Telehealth Center home">
+      <span class="brand-logos" aria-hidden="true">
+        <img src="{{ '/assets/images/up-seal.png' | relative_url }}" alt="" class="brand-logo brand-logo--seal brand-logo--up">
+        <span class="brand-logo-divider"></span>
+        <img src="{{ '/assets/images/nih-logo.png' | relative_url }}" alt="" class="brand-logo brand-logo--nih">
+        <span class="brand-logo-divider"></span>
+        <img src="{{ '/assets/images/nthc-seal.png' | relative_url }}" alt="" class="brand-logo brand-logo--seal brand-logo--nthc">
+      </span>
+      <span class="sr-only">University of the Philippines Manila, National Institutes of Health, National Telehealth Center</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span class="sr-only">Toggle navigation</span><span></span><span></span><span></span></button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+      <a href="{{ '/about/' | relative_url }}"{% if page.nav == 'about' %} class="is-current"{% endif %}>About & People</a>
+      <a href="{{ '/research/' | relative_url }}"{% if page.nav == 'research' %} class="is-current"{% endif %}>Research</a>
+      <a href="{{ '/news/' | relative_url }}"{% if page.nav == 'news' %} class="is-current"{% endif %}>News</a>
+      <a href="{{ '/events/' | relative_url }}"{% if page.nav == 'events' %} class="is-current"{% endif %}>Events</a>
+      <a href="{{ '/careers/' | relative_url }}"{% if page.nav == 'careers' %} class="is-current"{% endif %}>Careers</a>
+      <a href="{{ '/contact/' | relative_url }}" class="nav-cta{% if page.nav == 'contact' %} is-current{% endif %}">Connect</a>
+    </nav>
+  </div>
+</header>

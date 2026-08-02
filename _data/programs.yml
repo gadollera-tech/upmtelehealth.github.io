@@ -1,0 +1,31 @@
+- number: '01'
+  title: Standards & interoperability
+  description: Developing and testing health data standards, implementation guides,
+    terminology, and exchange workflows so health information systems can communicate
+    securely.
+  tag: FHIR · HIE · eReferral
+- number: '02'
+  title: eMedicine & telemedicine
+  description: Designing service models and tools that connect frontline providers,
+    specialists, patients, and communities across distance.
+  tag: Teleconsultation · Referral
+- number: '03'
+  title: eRecords & health systems
+  description: Building and evaluating electronic medical records, registries, clinical
+    systems, and public-health information platforms.
+  tag: EMR · EHR · Registries
+- number: '04'
+  title: eLearning & capacity building
+  description: Training health workers, researchers, developers, and decision-makers
+    to use digital health tools responsibly and effectively.
+  tag: Workshops · Courses
+- number: '05'
+  title: Policy & digital health networks
+  description: Supporting evidence-informed policy, governance, ethics, privacy, and
+    multi-sector collaboration for digital health.
+  tag: Policy · Governance
+- number: '06'
+  title: Surveillance & data use
+  description: Turning quality health data into timely information for planning, service
+    improvement, public-health action, and research.
+  tag: Analytics · Surveillance

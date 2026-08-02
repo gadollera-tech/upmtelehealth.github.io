@@ -1,0 +1,36 @@
+- name: Arturo M. Ongkeko Jr., RN, MSc
+  role: Director
+  group: Leadership
+  email: nih-nthc.upmanila@up.edu.ph
+  initials: AO
+  bio: Leads the National Telehealth Center and its work in digital health research,
+    interoperability, data governance, and public service. The current NIH center
+    profile identifies him as NTHC Director.
+  areas:
+  - Digital health
+  - Health information systems
+  - Data privacy and governance
+  verified: true
+- name: Raymond Francis R. Sarmiento, MD
+  role: Research Faculty
+  group: Research Faculty
+  email: rrsarmiento@up.edu.ph
+  initials: RS
+  bio: Research faculty member whose official NIH profile lists health and technology
+    and health data infrastructure as research areas.
+  areas:
+  - Health and technology
+  - Health data infrastructure
+  verified: true
+- name: Jinky Leilanie Lu, PhD
+  role: Research Faculty
+  group: Research Faculty
+  email: jdlu@up.edu.ph
+  initials: JL
+  bio: Research faculty member whose official NIH profile lists occupational and environmental
+    health, sociology of health and work, gender, and research methods among her areas.
+  areas:
+  - Occupational health
+  - Sociology of health and work
+  - Research methods
+  verified: true

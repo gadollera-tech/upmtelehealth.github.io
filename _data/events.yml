@@ -1,0 +1,44 @@
+- title: Philippine FHIR Connectathon
+  start: '2026-06-23'
+  end: '2026-06-25'
+  time: Full day
+  venue: Savoy Hotel, Boracay, Aklan
+  format: In person
+  category: Connectathon
+  status: Past
+  summary: Live testing of the draft Philippine Core and Philippine eReferral FHIR
+    Implementation Guides across participating EMR systems.
+  url: https://www.upm.edu.ph/cpt_news/philippine-emr-systems-achieve-live-health-data-exchange-at-june-2026-fhir-connectathon-in-aklan/
+- title: FHIR Structured Data Capture Training
+  start: '2026-05-13'
+  end: '2026-05-15'
+  time: Full day
+  venue: Online via Zoom with LMS support
+  format: Online
+  category: Training
+  status: Past
+  summary: Technical training on standardized smart forms, FHIRPath logic, calculations,
+    and data reuse under the Strengthening Standards Capability Project.
+  url: https://www.upm.edu.ph/cpt_announcements/building-the-brain-phie/
+- title: Road Safety Connectathon
+  start: '2025-11-17'
+  end: '2025-11-21'
+  time: Full day
+  venue: Sotogrande Hotel, Quezon City
+  format: In person
+  category: Connectathon
+  status: Past
+  summary: A multi-sector event to harmonize road-safety data elements and develop
+    interoperable reporting workflows based on HL7 FHIR.
+  url: https://www.upm.edu.ph/cpt_news/connectathon-national-telehealth-center-concerned-sectors-convene-to-create-road-safety-data-systems/
+- title: Basic AI in Healthcare Hands-On Workshop
+  start: '2024-09-26'
+  end: '2024-09-26'
+  time: Full day
+  venue: UP Manila
+  format: In person
+  category: Workshop
+  status: Past
+  summary: Foundational training for health and IT professionals on generative AI,
+    vision AI, medical applications, and ethical considerations.
+  url: https://www.upm.edu.ph/cpt_news/up-manila-hosts-inaugural-workshop-on-artificial-intelligence-in-healthcare/

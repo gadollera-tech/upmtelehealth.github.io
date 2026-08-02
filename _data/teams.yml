@@ -1,0 +1,20 @@
+- title: Standards & Interoperability
+  description: Implementation guides, terminology, testing, connectathons, exchange
+    architecture, and standards capacity building.
+  icon: ↔
+- title: Research & Evaluation
+  description: Study design, implementation research, monitoring and evaluation, data
+    analysis, manuscripts, and research dissemination.
+  icon: ⌁
+- title: Software & Systems
+  description: Health information systems, prototypes, technical architecture, development,
+    deployment, and support.
+  icon: </>
+- title: Training & Partnerships
+  description: Workshops, learning programs, stakeholder engagement, communications,
+    and community or institutional partnerships.
+  icon: ◎
+- title: Administration & Project Support
+  description: Project management, finance, procurement, documentation, logistics,
+    and institutional coordination.
+  icon: ✓

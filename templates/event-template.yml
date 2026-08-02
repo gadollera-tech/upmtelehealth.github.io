@@ -1,0 +1,10 @@
+- title: Event title
+  start: '2026-09-15'
+  end: '2026-09-15'
+  time: 9:00 AM–4:00 PM
+  venue: Venue or Online
+  format: In person
+  category: Training
+  status: Upcoming
+  summary: Short event description.
+  url: https://official-registration-or-announcement-link.example
