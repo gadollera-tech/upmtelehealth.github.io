@@ -1,8 +1,8 @@
 title: UP Manila National Telehealth Center
 short_title: NTHC
 description: Digital health research, standards, systems, capacity building, and partnerships for equitable health.
-url: ""
-baseurl: ""
+url: "https://gadollera-tech.github.io"
+baseurl: "/upmtelehealth.github.io"
 timezone: Asia/Manila
 permalink: /news/:year/:month/:day/:title/
 markdown: kramdown
