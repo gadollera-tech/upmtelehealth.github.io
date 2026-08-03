@@ -55,3 +55,89 @@
     finally{if(button){button.disabled=false;button.textContent=label;}}
   }));
 })();
+
+(() => {
+  "use strict";
+
+  document.querySelectorAll("[data-photo-carousel]").forEach((carousel) => {
+    const track = carousel.querySelector("[data-carousel-track]");
+    const slides = Array.from(carousel.querySelectorAll("[data-carousel-slide]"));
+    const dots = Array.from(carousel.querySelectorAll("[data-carousel-dot]"));
+    const previous = carousel.querySelector("[data-carousel-prev]");
+    const next = carousel.querySelector("[data-carousel-next]");
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (!track || slides.length < 2) return;
+
+    let current = 0;
+    let timer = null;
+
+    function show(index, focusDot = false) {
+      current = (index + slides.length) % slides.length;
+      track.style.transform = `translateX(-${current * 100}%)`;
+
+      slides.forEach((slide, slideIndex) => {
+        slide.setAttribute("aria-hidden", String(slideIndex !== current));
+      });
+
+      dots.forEach((dot, dotIndex) => {
+        const selected = dotIndex === current;
+        dot.setAttribute("aria-current", String(selected));
+        if (focusDot && selected) dot.focus();
+      });
+    }
+
+    function stopAutoPlay() {
+      if (timer) window.clearInterval(timer);
+      timer = null;
+    }
+
+    function startAutoPlay() {
+      if (reduceMotion || document.hidden) return;
+      stopAutoPlay();
+      timer = window.setInterval(() => show(current + 1), 6500);
+    }
+
+    previous?.addEventListener("click", () => {
+      show(current - 1);
+      startAutoPlay();
+    });
+
+    next?.addEventListener("click", () => {
+      show(current + 1);
+      startAutoPlay();
+    });
+
+    dots.forEach((dot, index) => {
+      dot.addEventListener("click", () => {
+        show(index);
+        startAutoPlay();
+      });
+    });
+
+    carousel.addEventListener("mouseenter", stopAutoPlay);
+    carousel.addEventListener("mouseleave", startAutoPlay);
+    carousel.addEventListener("focusin", stopAutoPlay);
+    carousel.addEventListener("focusout", (event) => {
+      if (!carousel.contains(event.relatedTarget)) startAutoPlay();
+    });
+
+    carousel.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        show(current - 1, true);
+      } else if (event.key === "ArrowRight") {
+        event.preventDefault();
+        show(current + 1, true);
+      }
+    });
+
+    document.addEventListener("visibilitychange", () => {
+      if (document.hidden) stopAutoPlay();
+      else startAutoPlay();
+    });
+
+    show(0);
+    startAutoPlay();
+  });
+})();

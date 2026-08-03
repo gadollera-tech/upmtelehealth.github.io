@@ -25,18 +25,7 @@ Edit `_data/careers.yml`. Add the newest vacancy at the top and use `status: Ope
 
 ## Add or update a project
 
-Edit `_data/projects.yml`. Each project may include:
-
-- `slug` — short URL-safe anchor
-- `title` and `acronym`
-- `status` and `category`
-- `summary` — short card description
-- `official_title` and `overview`
-- `objectives` — a YAML list
-- `period`, `partners`, `url`, and `source_label`
-- `featured: true` — displays the project on the homepage
-
-Use institution-approved wording. Update status labels whenever a new agreement, registry record, or official project notice is issued. Do not upload internal agreements or personnel rosters unless cleared for public release.
+Edit `_data/projects.yml`. Use `featured: true` for projects that should appear on the homepage.
 
 ## Add a publication
 
@@ -45,3 +34,11 @@ Edit `_data/publications.yml`. Add the newest publication at the top and include
 ## WordPress later?
 
 WordPress is useful if many non-technical staff need logins, visual editing, media management, approval workflows, and scheduled publishing. This Jekyll version is better for a small editorial team comfortable with GitHub. The site structure and content categories are already organized for a future WordPress migration.
+
+## Update the About-page photo slideshow
+
+1. Add an optimized JPG image to `assets/images/gallery/`.
+2. Edit `_data/gallery.yml`.
+3. Add or reorder an image block containing `image`, `title`, `caption`, and `alt`.
+4. The first entry is the first slide. The current order begins with the formal sablay portrait, followed by the Christmas group photo.
+5. Keep alternative text factual and concise, and confirm event names before publishing them as captions.

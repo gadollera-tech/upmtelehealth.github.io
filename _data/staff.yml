@@ -1,36 +1,34 @@
 - name: Arturo M. Ongkeko Jr., RN, MSc
-  role: Director
+  role: Director, National Telehealth Center
   group: Leadership
   email: nih-nthc.upmanila@up.edu.ph
   initials: AO
-  bio: Leads the National Telehealth Center and its work in digital health research,
-    interoperability, data governance, and public service. The current NIH center
-    profile identifies him as NTHC Director.
+  image: /assets/images/people/arturo-ongkeko-jr.png
+  bio: Leads the National Telehealth Center and its work in digital health research, health information systems, interoperability, and public service.
   areas:
-  - Digital health
-  - Health information systems
-  - Data privacy and governance
+    - Digital health
+    - Health information systems
+    - Interoperability
   verified: true
-- name: Raymond Francis R. Sarmiento, MD
+
+- name: Abegail Jayne Amoranto
   role: Research Faculty
   group: Research Faculty
-  email: rrsarmiento@up.edu.ph
-  initials: RS
-  bio: Research faculty member whose official NIH profile lists health and technology
-    and health data infrastructure as research areas.
+  initials: AA
+  bio: Research faculty member of the National Telehealth Center contributing to the center's research, project development, and digital health initiatives.
   areas:
-  - Health and technology
-  - Health data infrastructure
+    - Digital health research
+    - Project development
+    - Health information systems
   verified: true
-- name: Jinky Leilanie Lu, PhD
+
+- name: Dr. Anton G. Elepaño
   role: Research Faculty
   group: Research Faculty
-  email: jdlu@up.edu.ph
-  initials: JL
-  bio: Research faculty member whose official NIH profile lists occupational and environmental
-    health, sociology of health and work, gender, and research methods among her areas.
+  initials: AE
+  bio: Research faculty member of the National Telehealth Center supporting research, innovation, and multidisciplinary digital health work.
   areas:
-  - Occupational health
-  - Sociology of health and work
-  - Research methods
+    - Research
+    - Innovation
+    - Digital health
   verified: true

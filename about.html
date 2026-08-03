@@ -4,26 +4,197 @@ nav: about
 description: Learn about the UP Manila National Telehealth Center, its mandate, leadership, research faculty, and multidisciplinary teams.
 permalink: /about/
 ---
-<section class="page-hero"><div class="container page-hero__inner"><p class="eyebrow">About the center</p><h1>Digital health research shaped by people, systems, and public purpose.</h1><p class="page-lead">Created on 30 July 1998, NTHC advances transformative digital health research and development through interdisciplinary, translational, and community-engaged work.</p></div></section>
-<section class="section"><div class="container two-column"><div><p class="eyebrow">Mandate</p><h2>Design, develop, implement, and evaluate digital health solutions.</h2><p class="section-lead">The center prioritizes electronic medical and health records, public-health surveillance, telemedicine, standards, interoperability, and workforce capacity.</p><p>Its work connects research, implementation, monitoring and evaluation, policy, training, and public service to improve health care delivery.</p></div><div class="principles-grid"><article><span>Vision</span><h3>eHealth in empowered communities.</h3></article><article><span>Mission</span><h3>Engage communities in appropriate and progressive ICTs toward better equity in health.</h3></article><article><span>Approach</span><h3>Innovative, interdisciplinary, translational, ethical, and partnership-driven.</h3></article></div></div></section>
 
-<section class="section section--soft">
-  <div class="container two-column">
+<section class="page-hero">
+  <div class="container page-hero__inner">
     <div>
-      <p class="eyebrow">Research and innovation</p>
-      <h2>From health needs to practical digital solutions.</h2>
-      <p class="section-lead">NTHC translates research into standards, applications, registries, information systems, evaluation, and capacity-building initiatives.</p>
-      <p>Its current and recent portfolio includes work in standards and interoperability, maternal and child digital health, electronic disease registries, hospital infection surveillance, artificial intelligence for precision nutrition, newborn hearing screening, and Universal Health Care health-information systems.</p>
-      <a class="button button--primary" href="{{ '/research/' | relative_url }}">Explore projects and publications</a>
-    </div>
-    <div class="principles-grid">
-      <article><span>Standards</span><h3>Interoperable data, terminology, and implementation guides.</h3></article>
-      <article><span>Systems</span><h3>Registries, applications, dashboards, and health-information platforms.</h3></article>
-      <article><span>Evidence</span><h3>Research, evaluation, surveillance, and data for better decisions.</h3></article>
+      <p class="eyebrow">About NTHC</p>
+      <h1>Digital health, public service, and research that serve people.</h1>
+      <p>
+        The UP Manila National Telehealth Center advances digital health through research,
+        health information systems, interoperability, standards, implementation support,
+        and public service. It works with academic, government, healthcare, and community
+        partners to build practical digital solutions that strengthen healthcare delivery
+        and evidence-informed decision-making.
+      </p>
     </div>
   </div>
 </section>
 
-<section class="section section--soft"><div class="container"><div class="section-heading"><div><p class="eyebrow">Leadership and research faculty</p><h2>People behind the center’s research and public service.</h2></div><p class="review-note">This initial directory includes names and roles verified on public NIH or UP Manila pages. Add the complete institution-approved roster before launch.</p></div><div class="staff-grid">{% for person in site.data.staff %}<article class="staff-card"><div class="staff-avatar" aria-hidden="true">{{ person.initials }}</div><div class="staff-card__body"><span class="staff-group">{{ person.group }}</span><h3>{{ person.name }}</h3><p class="staff-role">{{ person.role }}</p><p>{{ person.bio }}</p><div class="staff-areas">{% for area in person.areas %}<span>{{ area }}</span>{% endfor %}</div>{% if person.email %}<a class="text-link" href="mailto:{{ person.email }}">{{ person.email }}</a>{% endif %}</div></article>{% endfor %}</div></div></section>
-<section class="section"><div class="container"><div class="section-heading"><div><p class="eyebrow">Multidisciplinary teams</p><h2>Organized around the work—not disciplinary silos.</h2></div><p>Use these team groups to add all staff, project personnel, research assistants, developers, coordinators, and administrative support.</p></div><div class="team-grid">{% for team in site.data.teams %}<article class="team-card"><div class="team-icon">{{ team.icon }}</div><h3>{{ team.title }}</h3><p>{{ team.description }}</p></article>{% endfor %}</div></div></section>
-<section class="section section--dark"><div class="container callout-row"><div><p class="eyebrow">Collaborate with us</p><h2>Bring a health need, research question, system challenge, or training goal.</h2></div><a class="button button--gold" href="{{ '/contact/' | relative_url }}">Start a conversation</a></div></section>
+<section class="section">
+  <div class="container two-column">
+    <div>
+      <p class="eyebrow">Who we are</p>
+      <h2>A university-based center focused on digital health innovation.</h2>
+    </div>
+    <div>
+      <p>
+        NTHC is a center under the UP Manila National Institutes of Health. Its work spans
+        digital health applications, health information systems, interoperability, standards,
+        registries, capacity-building, and research translation.
+      </p>
+      <p>
+        Through collaborative and multidisciplinary work, the center supports initiatives that
+        improve access to health information, strengthen health systems, and respond to the
+        evolving digital-health needs of institutions, practitioners, and communities.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Leadership and research faculty</p>
+        <h2>Current verified core leadership and research faculty.</h2>
+      </div>
+      <p class="review-note">
+        This section currently reflects the verified staff information you provided:
+        Center Director and Research Faculty only. Project leaders, project managers,
+        adjunct faculty, and additional team members may be added later once the
+        institution-approved roster and photos are available.
+      </p>
+    </div>
+
+    <div class="staff-grid">
+      {% for person in site.data.staff %}
+      <article class="staff-card">
+        <div class="staff-avatar" aria-hidden="true">
+          {% if person.image %}
+          <img src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+          {% else %}
+          {{ person.initials }}
+          {% endif %}
+        </div>
+        <div class="staff-body">
+          <p class="staff-group">{{ person.group }}</p>
+          <h3>{{ person.name }}</h3>
+          <p><strong>{{ person.role }}</strong></p>
+          <p>{{ person.bio }}</p>
+
+          {% if person.areas %}
+          <div class="staff-areas">
+            {% for area in person.areas %}
+            <span>{{ area }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+
+          {% if person.email %}
+          <div class="project-links">
+            <a href="mailto:{{ person.email }}">Contact</a>
+          </div>
+          {% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section nthc-gallery-section">
+  <div class="container">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Life at NTHC</p>
+        <h2>People, partnerships, and moments behind the work.</h2>
+      </div>
+      <p>
+        A selection of formal portraits, community gatherings, technical workshops,
+        and collaborative activities involving the NTHC community and its partners.
+      </p>
+    </div>
+
+    <div class="photo-carousel" data-photo-carousel aria-label="NTHC photo highlights" aria-roledescription="carousel">
+      <div class="photo-carousel__viewport">
+        <div class="photo-carousel__track" data-carousel-track>
+          {% for photo in site.data.gallery %}
+          <figure class="photo-carousel__slide" data-carousel-slide aria-hidden="{% if forloop.first %}false{% else %}true{% endif %}">
+            <img
+              src="{{ photo.image | relative_url }}"
+              alt="{{ photo.alt }}"
+              loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
+            >
+            <figcaption>
+              <span class="photo-carousel__number">{{ forloop.index }}</span>
+              <div>
+                <strong>{{ photo.title }}</strong>
+                <p>{{ photo.caption }}</p>
+              </div>
+            </figcaption>
+          </figure>
+          {% endfor %}
+        </div>
+      </div>
+
+      <button class="photo-carousel__button photo-carousel__button--prev" type="button" data-carousel-prev aria-label="Show previous photo">
+        <span aria-hidden="true">←</span>
+      </button>
+      <button class="photo-carousel__button photo-carousel__button--next" type="button" data-carousel-next aria-label="Show next photo">
+        <span aria-hidden="true">→</span>
+      </button>
+
+      <div class="photo-carousel__dots" aria-label="Choose a photo">
+        {% for photo in site.data.gallery %}
+        <button
+          type="button"
+          data-carousel-dot
+          aria-label="Show photo {{ forloop.index }}: {{ photo.title }}"
+          aria-current="{% if forloop.first %}true{% else %}false{% endif %}">
+        </button>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Research and innovation</p>
+        <h2>Project-driven, collaborative, and multidisciplinary.</h2>
+      </div>
+      <p>
+        NTHC's work is carried by teams across research, implementation, systems development,
+        policy support, interoperability, public health, and institutional collaboration.
+        The center's project portfolio includes standards work, registries, surveillance,
+        maternal and child health, artificial intelligence, and health information systems.
+      </p>
+    </div>
+
+    <div class="team-grid">
+      <article class="team-card">
+        <div class="team-icon">01</div>
+        <h3>Leadership</h3>
+        <p>Provides overall direction for the center's research, strategy, partnerships, and public service work.</p>
+      </article>
+      <article class="team-card">
+        <div class="team-icon">02</div>
+        <h3>Research Faculty</h3>
+        <p>Supports research design, innovation, mentorship, and the development of digital health initiatives and scholarly outputs.</p>
+      </article>
+      <article class="team-card">
+        <div class="team-icon">03</div>
+        <h3>Project Teams</h3>
+        <p>Includes project leaders, project managers, technical specialists, analysts, developers, communications staff, and administrative personnel.</p>
+      </article>
+      <article class="team-card">
+        <div class="team-icon">04</div>
+        <h3>Partners</h3>
+        <p>Works with healthcare institutions, government agencies, academic units, and community stakeholders across digital health initiatives.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark">
+  <div class="container callout-row">
+    <div>
+      <p class="eyebrow">Collaborate with us</p>
+      <h2>Bring a health need, research question, system challenge, or training goal.</h2>
+    </div>
+    <a class="button button--gold" href="{{ '/contact/' | relative_url }}">Start a conversation</a>
+  </div>
+</section>
