@@ -24,3 +24,18 @@ If the repository is a project site such as `username.github.io/repository-name`
 The contact and signup forms use the included Google Apps Script workflow. Deploy `google-apps-script/Code.gs` as a web app and paste the `/exec` URL into `config.js`. Until configured, the form opens the visitor's email application.
 
 See `EDITOR-GUIDE.md` for posting and updating content.
+
+## Repository-specific deployment setting
+
+This package is already configured for:
+
+- GitHub owner: `gadollera-tech`
+- Repository: `upmtelehealth.github.io`
+- Live project-site path: `https://gadollera-tech.github.io/upmtelehealth.github.io/`
+
+The `baseurl` in `_config.yml` must remain `/upmtelehealth.github.io` while the site is hosted from this repository. This ensures the CSS, JavaScript, images, pages, and blog links load from the correct subfolder.
+
+
+## Branding update
+
+The site now uses the supplied combined UP Manila–NIH–NTHC institutional lockup in the header. NTHC blue is the primary interface color; UP maroon, gold, and green are supporting accents.

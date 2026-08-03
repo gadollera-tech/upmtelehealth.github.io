@@ -25,7 +25,18 @@ Edit `_data/careers.yml`. Add the newest vacancy at the top and use `status: Ope
 
 ## Add or update a project
 
-Edit `_data/projects.yml`. Use `featured: true` for projects that should appear on the homepage.
+Edit `_data/projects.yml`. Each project may include:
+
+- `slug` — short URL-safe anchor
+- `title` and `acronym`
+- `status` and `category`
+- `summary` — short card description
+- `official_title` and `overview`
+- `objectives` — a YAML list
+- `period`, `partners`, `url`, and `source_label`
+- `featured: true` — displays the project on the homepage
+
+Use institution-approved wording. Update status labels whenever a new agreement, registry record, or official project notice is issued. Do not upload internal agreements or personnel rosters unless cleared for public release.
 
 ## Add a publication
 

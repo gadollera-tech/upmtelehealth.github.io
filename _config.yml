@@ -4,6 +4,7 @@ description: Digital health research, standards, systems, capacity building, and
 url: "https://gadollera-tech.github.io"
 baseurl: "/upmtelehealth.github.io"
 timezone: Asia/Manila
+repository: gadollera-tech/upmtelehealth.github.io
 permalink: /news/:year/:month/:day/:title/
 markdown: kramdown
 exclude:
