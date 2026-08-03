@@ -13,3 +13,30 @@
 .project-card--featured{border-top:4px solid var(--sky)}
 .section--soft{background:linear-gradient(180deg,var(--sky-soft),#f8fbfe)}
 .site-footer{border-top:5px solid var(--blue-bright)}
+
+
+/* Expanded current and recent project profiles */
+.project-filter-bar{margin:-8px 0 28px}
+.project-grid--profiles{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}
+.project-card--priority{border-color:#b9d9ef;background:linear-gradient(150deg,#eef8ff 0%,#fff 62%)}
+.project-card__topline{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.project-acronym{font-family:var(--serif);font-size:1rem;font-weight:700;color:var(--blue-deep);letter-spacing:.04em}
+.project-summary{font-size:.95rem}
+.project-facts{display:grid;gap:10px;margin:22px 0;padding:17px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.project-facts div{display:grid;grid-template-columns:110px 1fr;gap:14px}
+.project-facts dt{font-size:.67rem;text-transform:uppercase;letter-spacing:.08em;font-weight:900;color:var(--blue)}
+.project-facts dd{margin:0;font-size:.82rem;color:var(--muted)}
+.project-details{margin-top:18px;border:1px solid var(--line);border-radius:13px;background:var(--soft)}
+.project-details summary{cursor:pointer;list-style:none;padding:13px 15px;font-size:.78rem;font-weight:900;color:var(--blue-deep);display:flex;align-items:center;justify-content:space-between}
+.project-details summary::-webkit-details-marker{display:none}
+.project-details summary::after{content:"+";font-size:1.2rem;line-height:1}
+.project-details[open] summary::after{content:"−"}
+.project-details__body{padding:0 16px 17px;border-top:1px solid var(--line)}
+.project-details__body p{font-size:.88rem}
+.project-details__body h4{font-family:var(--serif);font-size:1rem;margin:18px 0 7px}
+.project-details__body ul{margin:0;padding-left:19px;color:var(--muted);font-size:.84rem}
+.project-details__body li+li{margin-top:6px}
+.project-official-title{padding:12px;border-radius:9px;background:#fff}
+.project-source{display:inline-block;margin-top:17px}
+.project-source-note{margin:17px 0 0;font-size:.72rem!important;font-style:italic;color:var(--muted)}
+@media(max-width:900px){.project-grid--profiles{grid-template-columns:1fr}.project-facts div{grid-template-columns:1fr;gap:3px}}

@@ -1,75 +1,151 @@
-- title: Strengthening Standards Capability Project
-  status: Current
-  category: Standards & interoperability
-  summary: A multi-year initiative housed at UP NTHC that develops, tests, and strengthens
-    standards-based digital health interoperability in the Philippines and the Indo-Pacific.
-  partners: Department of Health, CSIRO, Australian Government DFAT/Australian Aid
-  url: https://www.upm.edu.ph/cpt_news/philippine-emr-systems-achieve-live-health-data-exchange-at-june-2026-fhir-connectathon-in-aklan/
+- slug: sscp
+  title: "Strengthening Standards Capability Project"
+  acronym: "SSCP"
+  status: "Active"
+  category: "Standards & interoperability"
+  summary: "A multi-year capability-building initiative that strengthens national health-data standards, FHIR implementation, technical training, and live interoperability testing."
+  official_title: "Strengthening Standards Capability Project"
+  overview: "Led by the UP Manila National Telehealth Center in partnership with the Department of Health and CSIRO, SSCP builds the technical and institutional capability needed to develop, implement, and sustain standards-based digital health interoperability. The project supports implementation-guide development, standards training, connectathons, and practical testing across health-information systems."
+  objectives:
+    - "Strengthen local capability to develop, govern, and implement health-data standards."
+    - "Support Philippine Core and eReferral FHIR Implementation Guides."
+    - "Train developers, health-IT specialists, and implementers in standards-based workflows."
+    - "Validate data exchange through connectathons and live system testing."
+  period: "Active in 2026"
+  partners: "Department of Health; CSIRO; Australian Government support through Australian Aid"
+  url: "https://www.upm.edu.ph/cpt_news/philippine-emr-systems-achieve-live-health-data-exchange-at-june-2026-fhir-connectathon-in-aklan/"
+  source_label: "Read the 2026 FHIR Connectathon update"
   featured: true
-- title: Philippine Core and eReferral FHIR Implementation Guides
-  status: In active development
-  category: Standards & interoperability
-  summary: Draft national implementation guides being validated through connectathons
-    and live exchange testing across diverse electronic medical record systems.
-  partners: DOH, EMR implementers, health facilities, local health systems
-  url: https://www.upm.edu.ph/cpt_news/philippine-emr-systems-achieve-live-health-data-exchange-at-june-2026-fhir-connectathon-in-aklan/
+
+- slug: sil-ph
+  title: "Standards and Interoperability Lab–Philippines"
+  acronym: "SIL-PH"
+  status: "Active initiative"
+  category: "Standards & interoperability"
+  summary: "A national initiative hosted by NTHC that advances secure, standardized, and meaningful exchange of health information across the Philippine health system."
+  official_title: "Standards and Interoperability Lab–Philippines"
+  overview: "SIL-PH provides a collaborative environment for health professionals, terminology and interoperability specialists, developers, system administrators, researchers, government agencies, and implementers. It supports the translation of health policies and data requirements into computable standards, terminology resources, implementation guides, and exchange workflows."
+  objectives:
+    - "Promote the adoption and responsible use of health-information standards."
+    - "Support terminology services, semantic mapping, and interoperable data exchange."
+    - "Provide technical training, demonstrations, workshops, and connectathons."
+    - "Help health-information systems exchange data securely and consistently."
+  period: "Active initiative; personnel and activities documented in 2025–2026"
+  partners: "UP Manila National Telehealth Center; Department of Health; health-information system implementers and public-sector partners"
+  url: "https://www.upm.edu.ph/cpt_news/connectathon-national-telehealth-center-concerned-sectors-convene-to-create-road-safety-data-systems/"
+  source_label: "View a recent SIL-PH interoperability activity"
   featured: true
-- title: Aklan Local Health Information Exchange
-  status: In progress
-  category: Health information exchange
-  summary: A standards-based local exchange and eReferral initiative moving toward
-    a prototype in Ibajay and phased provincial scale-up.
-  partners: Provincial Government and Provincial Health Office of Aklan, DOH Western
-    Visayas CHD
-  url: https://www.upm.edu.ph/cpt_news/philippine-emr-systems-achieve-live-health-data-exchange-at-june-2026-fhir-connectathon-in-aklan/
+
+- slug: meco-teco-ai-pdc
+  title: "MECO–TECO AI Precision Diet Control Project"
+  acronym: "AI-PDC"
+  status: "Ongoing"
+  category: "AI, nutrition & personal health records"
+  summary: "A Philippine–Taiwan research collaboration using artificial intelligence, personal health records, and local dietary data to support precision nutrition for people with chronic diseases."
+  official_title: "Precision Diet Control AI Model Designed for Chronic Disease Patient – Based on Personal Health Record and International Data Exchange"
+  overview: "The project develops an artificial-intelligence model that combines personal health records with dietary information to support individualized nutrition analysis and meal-plan recommendations. The joint Philippine–Taiwan work also explores multilingual health and nutrition data, system integration, and standards-based applications that can support clinicians and patients."
+  objectives:
+    - "Develop an AI model for personalized nutrition guidance for chronic-disease care."
+    - "Integrate personal health-record and locally relevant dietary information."
+    - "Support multilingual data use across Philippine and Taiwanese contexts."
+    - "Develop user-centered PHR and SMART on FHIR applications and workflows."
+  period: "Ongoing; Year 2 implementation publicly documented in 2026"
+  partners: "University of the Philippines Manila; National Taipei University of Nursing and Health Sciences; DOST–MECO–TECO Joint Research Program"
+  url: "https://registry.healthresearch.ph/index.php/registry?cid=8651&layout=details&view=research"
+  source_label: "View the Philippine Health Research Registry record"
+  featured: true
+
+- slug: kalinga
+  title: "KALINGA: Digital Maternal and Child Health for the First 1,000 Days"
+  acronym: "KALINGA"
+  status: "Multi-year program"
+  category: "Maternal & child digital health"
+  summary: "A Filipino-language digital health application and data-registry program supporting maternal and child health information, monitoring, and intervention during the first 1,000 days."
+  official_title: "KALINGA Program: Development and Effectiveness Study of a Filipino Language App that Provides Anthropometric, Biochemical, Clinical, Developmental, Epigenetic and Hearing Health Information, Monitoring and Intervention Services among Filipino Mother-Infant Dyads during the First 1,000 Days"
+  overview: "KALINGA develops and evaluates a Filipino-language, app-based health intervention for mother–infant dyads. Project A centers on the design, implementation, and evaluation of a digital maternal and child health application and health-data registry that can improve data quality, surveillance, monitoring, and service delivery."
+  objectives:
+    - "Identify information requirements for an integrated maternal and child health application and registry."
+    - "Improve surveillance and monitoring during the first 1,000 days."
+    - "Build the capacity of mothers and healthcare-provider end users."
+    - "Evaluate system effectiveness, efficiency, usability, and acceptability."
+  period: "Five-year program under the signed project agreement"
+  partners: "Department of Science and Technology; DOST–PCHRD; University of the Philippines Manila"
+  url: ""
+  source_label: ""
   featured: false
-- title: Road Safety Data Interoperability
-  status: Active / recent
-  category: Public-health data systems
-  summary: Co-design and connectathon activities to harmonize road-crash data elements
-    and improve information exchange among responders, hospitals, and surveillance
-    systems.
-  partners: Government agencies, emergency responders, hospitals, academe, industry
-  url: https://www.upm.edu.ph/cpt_news/connectathon-national-telehealth-center-concerned-sectors-convene-to-create-road-safety-data-systems/
+
+- slug: hipps
+  title: "Healthcare-associated Infection Prevalence in the Philippines Study"
+  acronym: "HIPPS"
+  status: "Ongoing"
+  category: "Public-health surveillance"
+  summary: "A multicenter study establishing baseline healthcare-associated infection rates and strengthening hospital infection surveillance in the Philippines."
+  official_title: "Healthcare-associated Infection Prevalence in the Philippines Study"
+  overview: "HIPPS is the second phase of work supporting the development and implementation of a research protocol for healthcare-associated infection surveillance. It aims to establish baseline rates of healthcare-associated infections in sampled Level 1, Level 2, and Level 3 hospitals and generate evidence for infection-prevention and control programs."
+  objectives:
+    - "Measure baseline healthcare-associated infection rates in sampled Philippine hospitals."
+    - "Support standardized hospital data collection and quality assurance."
+    - "Strengthen national surveillance for healthcare-associated infections."
+    - "Provide evidence for infection-prevention and control planning."
+  period: "Registered as ongoing in May 2025"
+  partners: "UP Manila National Telehealth Center; Monash University; World Health Organization; participating hospitals"
+  url: "https://registry.healthresearch.ph/index.php/component/healthregistry/?cid=8395&layout=details&view=research"
+  source_label: "View the Philippine Health Research Registry record"
   featured: false
-- title: Community Health Information Tracking System (CHITS)
-  status: Foundational platform
-  category: Electronic medical records
-  summary: A pioneering open-source electronic medical record developed for government
-    primary-care facilities and rural health units.
-  partners: Local health systems and technology-transfer partners
-  url: https://www.upm.edu.ph/cpt_news/up-manilas-long-running-e-med-record-system-licensee-to-capacitate-more-rhus-other-health-facilities/
+
+- slug: uhc-his
+  title: "Evaluation of Universal Health Care Health Information Systems"
+  acronym: "UHC-HIS"
+  status: "Recent evaluation"
+  category: "Health information systems evaluation"
+  summary: "A national evaluation examining the functionality, interoperability, infrastructure, and contribution of health-information systems to Universal Health Care implementation."
+  official_title: "Evaluation of the Universal Health Care Health Information Systems"
+  overview: "Conducted by NTHC for the Department of Economy, Planning, and Development, the evaluation was designed to generate evidence on health-information systems supporting Universal Health Care. It examined the functionality and effectiveness of major government platforms, interoperability across healthcare institutions, and links with foundational national registries."
+  objectives:
+    - "Evaluate the functionality and effectiveness of key government health-information platforms."
+    - "Assess horizontal and vertical interoperability across healthcare institutions."
+    - "Examine integration with facility, client, and healthcare-provider registries."
+    - "Identify gaps, good practices, infrastructure needs, telemedicine adoption issues, and sustainability concerns."
+  period: "National survey and evaluation activities conducted in 2025"
+  partners: "Department of Economy, Planning, and Development; UP Manila National Telehealth Center; Department of Health; PhilHealth; participating agencies and civil-society organizations"
+  url: "https://psa.gov.ph/content/psa-clears-evaluation-universal-health-care-uhc-health-information-systems-his-survey"
+  source_label: "Read the Philippine Statistics Authority notice"
   featured: false
-- title: RxBox and National Telehealth Service Program
-  status: Foundational program
-  category: Telemedicine
-  summary: A telemedicine and biomedical device initiative designed to connect geographically
-    isolated communities and frontline providers with specialist support.
-  partners: DOST-PCHRD, Department of Health, Philippine General Hospital
-  url: https://www.upm.edu.ph/cpt_news/pioneering-telemedicine-and-digital-health-solutions-in-the-philippines/
+
+- slug: liver-registry
+  title: "Comprehensive Electronic Liver Disease Registry and Health Data Dashboard"
+  acronym: "LDR"
+  status: "Recent project cycle"
+  category: "Electronic registries & surveillance"
+  summary: "A comprehensive electronic registry and health-data dashboard supporting liver disease surveillance, outcomes monitoring, research, and evidence-informed decision-making."
+  official_title: "Design, Development, Implementation, and Assessment of a Comprehensive Electronic Disease Registry with Health Data Dashboard for Liver Diseases in the Philippines"
+  overview: "The project designed, developed, implemented, and assessed an electronic disease registry and health-data dashboard for liver diseases in the Philippines. It was intended to strengthen health-outcomes monitoring, surveillance, resource allocation, and priority setting, while supporting integration with biobanking-facility data for viral hepatitis."
+  objectives:
+    - "Define stakeholder, standards, infrastructure, software, and data requirements."
+    - "Develop registry governance, data-use, ownership, access, retention, and publication policies."
+    - "Operationalize the registry and dashboard through training and capacity building."
+    - "Assess research, policy, practice, utility, usage, and implementation implications."
+  period: "October 1, 2023–September 30, 2025"
+  partners: "DOST–PCHRD; University of the Philippines Manila; UP–Philippine General Hospital; government, professional, and patient-organization partners"
+  url: ""
+  source_label: ""
   featured: false
-- title: HeLe eHealth-enabled Newborn Hearing Care
-  status: Completed pilot / research
-  category: eHealth service delivery
-  summary: A community-based newborn hearing screening and referral model supported
-    by web-based information and referral systems.
-  partners: Philippine National Ear Institute, UP Diliman, University of California
-    Davis
-  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11522630/
-  featured: false
-- title: DISPO Virtual Assistant
-  status: Research prototype
-  category: AI and mental health
-  summary: A natural-language-processing-enabled virtual assistant designed to support
-    assessment and triage for depression and anxiety among people affected by COVID-19.
-  partners: UP Manila research collaborators
-  url: https://www.upm.edu.ph/cpt_news/nih-concludes-26th-anniversary-with-focus-on-diversity-and-inclusion-in-population-health-research/
-  featured: false
-- title: UP Manila BESTS
-  status: Completed pandemic response
-  category: Surveillance
-  summary: An open-source web application used to monitor employee health status and
-    identify potential COVID-19 hotspots within UP Manila.
-  partners: UP Manila
-  url: https://www.upm.edu.ph/cpt_news/pioneering-telemedicine-and-digital-health-solutions-in-the-philippines/
+
+- slug: ennhsr
+  title: "Electronic National Newborn Hearing Screening Registry"
+  acronym: "ENNHSR"
+  status: "Recent maintenance cycle"
+  category: "Electronic registries & technical operations"
+  summary: "A national electronic registry supporting newborn hearing-screening data, referrals, patient management, and the reliable operation of the underlying information system."
+  official_title: "Continuation of the Maintenance of the Electronic National Newborn Hearing Screening Registry"
+  overview: "ENNHSR supports hearing-screening and management facilities in capturing, analyzing, and archiving patient information from screening and referral through clinical management and surgical intervention. The continuation project focused on technical support, system maintenance, duplicate-record management, server co-location, security, backup, and service continuity."
+  objectives:
+    - "Provide continuing technical support and maintenance for the ENNHSR system."
+    - "Resolve software, database, network, and server-related issues."
+    - "Remove duplicate records and maintain regular backup and archiving."
+    - "Monitor server traffic, data flow, uptime, downtime, and security."
+  period: "Maintenance cycle: June 2024–April 2025"
+  partners: "Newborn Hearing Screening Reference Center; UP Manila National Telehealth Center; DOST–Advanced Science and Technology Institute"
+  url: ""
+  source_label: ""
   featured: false
